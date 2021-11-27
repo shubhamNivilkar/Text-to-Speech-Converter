@@ -30,6 +30,7 @@ body{
 }
 form .row{
     display: flex;
+    margin-bottom: 20px;
     flex-direction: column;
 }
 form .row label{
@@ -48,4 +49,23 @@ form .row textarea{
     font-size: 15px;
     padding: 8px 10px;
     border: 1px solid #999;
+}
+form .row .outer{
+    height: 47px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+form .row select{
+    font-size: 14px;
+}
+form button{
+    height: 52px;
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    background: blueviolet;
 }
